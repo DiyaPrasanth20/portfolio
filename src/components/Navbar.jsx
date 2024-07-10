@@ -25,6 +25,6 @@ export default Navbar
 
 /*
 TO DO:
-- find another logo or none at all (need to add stuff that will scroll to relevant pages)
+- find another logo or none at all (cause need to add stuff that will scroll to relevant pages)
 - add links to icons 
 */
