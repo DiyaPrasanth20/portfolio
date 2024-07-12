@@ -7,6 +7,9 @@ import { FaDocker } from "react-icons/fa";
 import { SiKubernetes } from "react-icons/si";
 import { SiMicrosoftazure } from "react-icons/si";
 import googleCloudLogo from '../assets/google_cloud_logo.png'; 
+import { FaGitAlt } from "react-icons/fa";
+import mySQLlogo from '../assets/mySQL_logo.png'; 
+
 
 
 const Technologies = () => {
@@ -44,6 +47,19 @@ const Technologies = () => {
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiMicrosoftazure className="text-7xl" style={{ color: '#008AD7' }} />
             </div> 
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < FaGitAlt className="text-7xl" style={{ color: 'FF5733' }} />
+            </div> 
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                <img
+                    src={mySQLlogo}
+                    alt="SQL Logo"
+                    className="h-16 w-auto"
+                    style={{ height: '72px', width: '72px' }}
+
+                />
+            </div>
+             
             
         </div>
     </div>
@@ -55,5 +71,11 @@ export default Technologies
 
 /*
 TO DO: 
+
+- add tailwind to icons
+- make the mySQL picture bigger 
+- when you hover over technologies it should tell you what it is or 
+when you click on it it should tell you what it is. Some way to tell you what it is.
+
 
 */
