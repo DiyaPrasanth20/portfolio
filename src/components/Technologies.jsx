@@ -30,14 +30,14 @@ const Technologies = () => {
                 < FaDocker className="text-7xl text-cyan-500"/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                < SiKubernetes className="text-7xl text-blue-#326CE5"/>
+                 <SiKubernetes className="text-7xl" style={{ color: '#326CE5' }} />
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 < SiGooglecloud className="text-7xl text-yellow-500"/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                < SiMicrosoftazure className="text-7xl #008AD7"/>
-            </div>
+                <SiMicrosoftazure className="text-7xl" style={{ color: '#008AD7' }} />
+            </div> 
             
         </div>
     </div>
