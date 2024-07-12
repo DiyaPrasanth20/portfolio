@@ -5,8 +5,8 @@ import { SiMongodb } from 'react-icons/si'
 import { FaNodeJs} from 'react-icons/fa'
 import { FaDocker } from "react-icons/fa";
 import { SiKubernetes } from "react-icons/si";
-import { SiGooglecloud } from "react-icons/si";
 import { SiMicrosoftazure } from "react-icons/si";
+import googleCloudLogo from '../assets/google_cloud_logo.png'; 
 
 
 const Technologies = () => {
@@ -33,7 +33,13 @@ const Technologies = () => {
                  <SiKubernetes className="text-7xl" style={{ color: '#326CE5' }} />
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                < SiGooglecloud className="text-7xl text-yellow-500"/>
+                <img
+                    src={googleCloudLogo}
+                    alt="Google Cloud Logo"
+                    className="h-16 w-auto"
+                    style={{ height: '70px', width: 'auto' }}
+
+                />
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiMicrosoftazure className="text-7xl" style={{ color: '#008AD7' }} />
@@ -49,7 +55,5 @@ export default Technologies
 
 /*
 TO DO: 
-- kubernetes icon color should be the hex code color
-- google cloud icon color is diferent (3 diff colors at once) 
 
 */
