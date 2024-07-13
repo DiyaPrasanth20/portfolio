@@ -8,8 +8,10 @@ import { SiKubernetes } from "react-icons/si";
 import { SiMicrosoftazure } from "react-icons/si";
 import googleCloudLogo from '../assets/google_cloud_logo.png'; 
 import { FaGitAlt } from "react-icons/fa";
-import mySQLlogo from '../assets/mySQL_logo.png'; 
-
+import { GrMysql } from "react-icons/gr";
+import { SiTensorflow } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
+import Neo4jLogo from '../assets/Neo4j_logo.png'; 
 
 
 const Technologies = () => {
@@ -51,15 +53,23 @@ const Technologies = () => {
                 < FaGitAlt className="text-7xl" style={{ color: 'FF5733' }} />
             </div> 
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                <GrMysql className="text-7xl" style={{ color: '1B8EB7' }} />
+            </div>
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < SiTensorflow className="text-7xl" style={{ color: 'FF9701' }} />
+            </div>
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < SiFlask className="text-7xl" />
+            </div>
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 <img
-                    src={mySQLlogo}
-                    alt="SQL Logo"
+                    src={Neo4jLogo}
+                    alt="Neo4j Logo"
                     className="h-16 w-auto"
-                    style={{ height: '72px', width: '72px' }}
+                    style={{ height: '70px', width: '70px' }}
 
                 />
-            </div>
-             
+            </div>             
             
         </div>
     </div>
