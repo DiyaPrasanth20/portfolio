@@ -12,6 +12,7 @@ import { GrMysql } from "react-icons/gr";
 import { SiTensorflow } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
 import Neo4jLogo from '../assets/Neo4j_logo.png'; 
+import { RiTailwindCssFill } from "react-icons/ri";
 
 
 const Technologies = () => {
@@ -69,7 +70,10 @@ const Technologies = () => {
                     style={{ height: '70px', width: '70px' }}
 
                 />
-            </div>             
+            </div>  
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < RiTailwindCssFill className="text-7xl" style={{ color: '1BB5EB' }} />
+            </div>           
             
         </div>
     </div>
@@ -81,9 +85,6 @@ export default Technologies
 
 /*
 TO DO: 
-
-- add tailwind to icons
-- make the mySQL picture bigger 
 - when you hover over technologies it should tell you what it is or 
 when you click on it it should tell you what it is. Some way to tell you what it is.
 
