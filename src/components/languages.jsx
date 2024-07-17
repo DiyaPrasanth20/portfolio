@@ -6,6 +6,10 @@ import CPlusPlusLogo from '../assets/CPlusPlus_logo.png';
 import CSharpLogo from '../assets/CSharp_logo.png';
 import { FaGolang } from "react-icons/fa6";
 import { SiR } from "react-icons/si";
+import { TbBrandJavascript } from "react-icons/tb";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+
 
 const Languages = () => {
   return (
@@ -69,6 +73,18 @@ const Languages = () => {
 
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 < SiR className="text-7xl" style={{ color: '#00009B' }} />
+        </div>
+
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < TbBrandJavascript className="text-7xl" style={{ color: '#FFAA33' }} />
+        </div>
+
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < FaCss3Alt className="text-7xl" style={{ color: '#1BB5EB' }} />
+        </div>
+
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < FaHtml5 className="text-7xl" style={{ color: 'EC551A' }} />
         </div>
                     
             
