@@ -1,9 +1,9 @@
 import React from 'react'
 import javaLogo from '../assets/java_logo.png'; 
 import pythonLogo from '../assets/python_logo.png';
-import CLogo from '../assets/C_logo.png';
-import CPlusPlusLogo from '../assets/CPlusPlus_logo.png';
-import CSharpLogo from '../assets/CSharp_logo.png';
+import { SiC } from "react-icons/si";
+import { SiCplusplus } from "react-icons/si";
+import { SiCsharp } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 import { SiR } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -38,33 +38,17 @@ const Languages = () => {
         </div>
 
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img
-                    src={CLogo}
-                    alt="C Logo"
-                    className="h-16 w-auto"
-                    style={{ height: '70px', width: 'auto' }}
-
-                />
+                < SiC className="text-7xl" style={{ color: '#008AD7' }} />
         </div>
 
+        
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img
-                    src={CPlusPlusLogo}
-                    alt="C++ Logo"
-                    className="h-16 w-auto"
-                    style={{ height: '70px', width: 'auto' }}
-
-                />
+                < SiCplusplus className="text-7xl" style={{ color: '#008AD7' }} />
         </div>
 
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img
-                    src={CSharpLogo}
-                    alt="C# Logo"
-                    className="h-16 w-auto"
-                    style={{ height: '70px', width: 'auto' }}
 
-                />
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                < SiCsharp className="text-7xl" style={{ color: '841AEC' }} />
         </div>
 
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -101,10 +85,7 @@ TO DO:
 - when you hover over languages it should tell you what it is or 
 when you click on it it should tell you what it is. Some way to tell you what it is.
 
--  Shell Scripting, JavaScript, HTML/CSS
-
-
-- could probably change the c icons to the react icons 
+- On big screens only want 4/5 in a line 
 
 
 */
