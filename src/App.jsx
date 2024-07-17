@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Technologies from "./components/Technologies"
-
+import Languages from "./components/Languages"
 
 
  const App = () => {
@@ -15,6 +15,7 @@ import Technologies from "./components/Technologies"
         <Navbar />
         <Hero />
         <Technologies />
+        < Languages/>
       </div>
     </div>
   )
