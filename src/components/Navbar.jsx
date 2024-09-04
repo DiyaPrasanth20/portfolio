@@ -23,7 +23,7 @@ const Navbar = () => {
       </a>
 
       <button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white py-1 px-2 rounded text-sm"
           onClick={openResume}
         >
           View Resume
@@ -40,4 +40,8 @@ export default Navbar
 TO DO:
 - fix the view resume button 
 - 
+
+
+bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
+
 */
