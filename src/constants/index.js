@@ -1,5 +1,5 @@
 
-export const HERO_CONTENT = `Graduating in December 2024 from Purdue University with a double major in Computer Science and Data Science, concentrating in Machine Learning, I have deep expertise in developing innovative and scalable solutions. My hands-on experience through research, software engineering, and machine learning internships have allowed me to explore roles in data analytics, machine learning, and full-stack development. I am now seeking a full-time position to leverage my diverse skills and drive impactful business outcomes.`;
+export const HERO_CONTENT = `I am currently a senior at Purdue University, double majoring in Data Science and Computer Science, with a strong passion for leveraging data-driven insights and cutting-edge technologies. I am set to graduate in December 2024 and am eager to apply my skills in a dynamic, challenging role where I can contribute meaningfully and continue to grow both professionally and personally.`;
 
 export const EXPERIENCES = [
   {
