@@ -24,7 +24,7 @@ const Navbar = () => {
 
       <button
           className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white py-1 px-2 rounded text-sm"
-          onClick={openResume}
+          onClick={() => window.open('/src/assets/resume/Diya_Resume_U.pdf', '_blank')}
         >
           View Resume
       </button>
